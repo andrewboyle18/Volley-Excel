@@ -4,13 +4,9 @@ public class starter
 {		
         public static void main(String args[])
         {
-			JFrame window = new JFrame("Test");
-			
-			window.setSize(600,600);
-			window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-			window.setVisible(true);
-			
+			Shape window = new Shape("Rectangle");
 			placeFinder p = new placeFinder();
 			window.getContentPane().addMouseListener(p);
 		}	
 }
+ 

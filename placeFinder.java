@@ -3,7 +3,7 @@ import java.awt.event.MouseAdapter;
 public class placeFinder extends MouseAdapter
 {		
 		public void mouseClicked(MouseEvent e){
-			System.out.println(e.getX() + e.getY());
+			System.out.println("X Value: " + e.getX()+ ", Y Value: " + e.getY());
 		}
 		
 		// public void mouseEntered(MouseEvent e){
